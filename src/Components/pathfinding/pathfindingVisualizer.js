@@ -1,6 +1,6 @@
 import React, {Component} from 'react';
 import Node from "./Node";
-import {Dijakstra} from '../../Algorithms/pathfinding/Dijakstra';
+import Dijakstra from '../../Algorithms/pathfinding/Dijakstra';
 import Header from "../Header";
 import Button from "../Button";
 import Footer from './footer'
