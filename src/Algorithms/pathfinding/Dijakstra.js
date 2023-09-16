@@ -39,4 +39,6 @@ const isValid = (grid,row,col) => {
     if(row>=0 && row<grid.length && col>=0 && col<grid[0].length) return true;
     return false;
 }
-module.exports = Dijakstra
+// module.exports = Dijakstra
+
+export default Dijakstra;
